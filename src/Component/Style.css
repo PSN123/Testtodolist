@@ -1,0 +1,101 @@
+*{
+    padding:0px;
+    left:0px;
+}
+
+.heading{
+    margin-top: 2%;
+    color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Maindiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.In{
+    margin-top: 1%;
+    width:430px;
+    height:60px;
+    border-bottom: 2px solid blueviolet;
+    
+}
+.InputStyle{
+    margin-Top:5%;
+    width:400px;
+    height:40px;
+    border: none;
+    outline: none;
+}
+
+input::placeholder{
+    margin-left: 5px;
+    padding-left: 2px;
+    font-size: 15px;
+}
+/* .showitems{
+    width: 420px;
+    height: 25px;
+    margin-top: 10%;
+   background-color: brown;
+
+} */
+
+.showItems {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+.eachItem {
+    background: #fff;
+    padding: 1.2rem 1rem;
+    border-radius: 0.5rem; 
+    margin-bottom: 0.7rem;
+    min-width: 412px;
+    height: 20px;
+    word-break: break-word;
+    background: rgb(85, 41, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+.addbutton{
+    cursor: pointer;
+    margin-Top:5%;
+}
+.addbutton:hover{
+    cursor: pointer;
+    margin-Top:5%;
+    color: rgb(85, 41, 220);
+}
+
+h6{
+    font-size:15px;
+    color: white;
+    width:350px;
+    text-align: left;
+}
+.edit{
+    cursor: pointer;
+    color:blanchedalmond
+}
+.delete{
+    cursor: pointer;
+    margin-left: 4px;
+    color:blanchedalmond
+} 
+
+.edit:hover{
+    color:greenyellow;
+}
+
+.delete:hover{
+    color:red;
+}
